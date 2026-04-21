@@ -31,19 +31,22 @@ feature_row:
     btn_class: "btn--inverse"
     author_profile: true
 sponsors:
-  - image_path: assets/umsu.png
-    excerpt: UMSU affiliated club
-  - image_path: assets/janest.png
-    excerpt: Jane Street
-  - image_path: assets/sponsor.png
-    excerpt: IMC
+  - image_path: assets/umsu_logo.avif
+    excerpt: We are an UMSU affiliated club
+  - image_path: assets/unimelb_logo.avif
+    excerpt: School of Maths & Stats - supporter
+  - image_path: assets/jane_st_logo.avif
+    excerpt: Jane Street - platinum sponsor
 sponsors2:
-  - image_path: assets/umsu.png
-    excerpt: SIG
-  - image_path: assets/janest.png
-    excerpt: Trader
-  - image_path: assets/sponsor.png
-    excerpt: h
+  - image_path: assets/optiver_logo.avif
+    excerpt: Optiver - gold sponsor
+  - image_path: assets/imc_logo.avif
+    excerpt: IMC - gold sponsor
+  - image_path: assets/sig_logo.avif
+    excerpt: Susquehanna - gold sponsor
+sponsors3:
+  - image_path: assets/Taylor_Fry_Logo_edited.avif
+    excerpt: Taylor Fry - gold sponsor
 ---
 
 <div style="--teaser-height: 250px">
@@ -95,4 +98,6 @@ document.getElementById('cal-frame').srcdoc = html;
 ## Our sponsors
 <div style="--teaser-height: 250px">
 {% include feature_row id="sponsors" %}
+{% include feature_row id="sponsors2" %}
+{% include feature_row id="sponsors3" %}
 </div>

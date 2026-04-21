@@ -9,3 +9,8 @@
   overflow: hidden;
   img { width: 100%; height: 100%; object-fit: cover; }
 }
+
+p > img:only-child {
+  display: block;
+  margin-inline: auto; // logical-property shorthand for left+right auto
+}

@@ -3,9 +3,7 @@ main:
     url: /about/
   - title: "Events"
     url: /events/
-  - title: "Resources"
-    url: /resources/
-  - title: "Sponsors"
-    url: /sponsors/
-  - title: "Archive"
-    url: /archive/
+# - title: "Resources"
+#   url: /resources/
+# - title: "Archive"
+#   url: /archive/
